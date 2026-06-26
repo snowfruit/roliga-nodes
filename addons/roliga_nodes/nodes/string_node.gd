@@ -8,7 +8,7 @@ signal value_changed(previous: String, new: String)
 
 
 ## Returns true if value changed.
-func set_value(new_value) -> bool:
+func set_value(new_value: String) -> bool:
 	if value == new_value:
 		return false
 

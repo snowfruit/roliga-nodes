@@ -8,7 +8,7 @@ signal value_changed(previous: int, new: int)
 
 
 ## Returns true if value changed.
-func set_value(new_value) -> bool:
+func set_value(new_value: int) -> bool:
 	if value == new_value:
 		return false
 
