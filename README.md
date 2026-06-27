@@ -1,6 +1,6 @@
 # Roliga Nodes
 
-Collection of roliga (Swedish for "fun") and helpful nodes for **[Godot Engine](https://godotengine.org).
+Collection of roliga (Swedish for "fun") and helpful nodes for [Godot Engine](https://godotengine.org).
 
 Meant to make working with nodes in Godot even more fun, inspiring, and easy.
 
