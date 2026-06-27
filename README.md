@@ -18,3 +18,7 @@ Roliga Nodes **requires at least Godot 4.7**.
 * Activate the plugin inside Godot.
 
 It is possible to just download the node or nodes you want and place them directly inside your project folder.
+
+## Credits
+* [Godot Engine](https://godotengine.org) for making Godot Engine.
+* [Godot GDScript Formatter](https://github.com/GDQuest/GDScript-formatter) used for formatting.
