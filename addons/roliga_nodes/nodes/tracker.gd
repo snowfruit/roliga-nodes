@@ -1,9 +1,8 @@
-class_name DestroyTarget
+class_name Tracker
 extends Node
-## Destroy target node with queue_free().
+## Keep track of a node in the scene tree even as it moves or change name.
 
 signal target_changed(new_target)
-signal target_destroyed
 
 @export var target: Node:
 	set = set_target
@@ -19,10 +18,3 @@ func set_target(new_target: Node) -> bool:
 	target_changed.emit(target)
 
 	return true
-
-
-## Destroy target node with queue_free() if possible.
-func destroy_target():
-	if target:
-		target.queue_free()
-		target_destroyed.emit()

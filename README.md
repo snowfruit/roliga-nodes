@@ -2,7 +2,9 @@
 
 Collection of roliga (Swedish for "fun") and helpful nodes for [Godot Engine](https://godotengine.org).
 
-Meant to make working with nodes in Godot even more fun, inspiring, and easy.
+Makes working with nodes in Godot even more fun, inspiring, and easy.
+
+The main purpose behind every node is to be fun to use and provide functionality that is commonly coded.
 
 
 ## Version
@@ -23,9 +25,24 @@ It is possible to just download the node or nodes you want and place them direct
 ## Nodes
 
 
-### bool_node.gd
+### values/bool_node.gd
 
 Node with a bool.
+
+
+### values/float_node.gd
+
+Node with a float.
+
+
+### values/int_node.gd
+
+Node with an int.
+
+
+### values/string_node.gd
+
+Node with a string.
 
 
 ### color_node.gd
@@ -33,7 +50,7 @@ Node with a bool.
 Node with a color. Can also randomize a color.
 
 
-### counter_node.gd
+### counter.gd
 
 Counter with add and subtract.
 
@@ -48,27 +65,17 @@ Assign a target and destroy it on command.
 Read and write text to a file.
 
 
-### float_node.gd
-
-Node with a float.
-
-
 ### hide_parent_on_ready.gd
 
 Hide parent node if possible when _ready() is called.
 
 
-### int_node.gd
-
-Node with an int.
-
-
-### on_off_node.gd
+### on_off.gd
 
 On and off functions. Used to represent an on/off state.
 
 
-### open_close_node.gd
+### open_close.gd
 
 Open and close functions. Used to represent an open/close state.
 
@@ -83,14 +90,14 @@ Link a pair of nodes and make them work as a pair.
 Show parent node if possible when _ready() is called.
 
 
-### spawn_scene_node.gd
+### spawn_packed_scene.gd
 
 Spawn a PackedScene as child or as child to a target node.
 
 
-### string_node.gd
+## tracker.gd
 
-Node with a string.
+Keep track of a node in the scene tree even as it moves or change name.
 
 
 ## Credits

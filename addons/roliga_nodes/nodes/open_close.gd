@@ -1,4 +1,4 @@
-class_name OpenCloseNode
+class_name OpenClose
 extends Node
 ## For objects that opens and closes.
 

@@ -1,4 +1,4 @@
-class_name CounterNode
+class_name Counter
 extends Node
 ## Node for counting a value.
 

@@ -1,4 +1,4 @@
-class_name OnOffNode
+class_name OnOff
 extends Node
 ## For objects that turns on and off.
 
