@@ -1,5 +1,8 @@
 class_name StringNode
 extends Node
+## Stores and manages a String value.
+##
+## Emits a signal when the value changes.
 
 signal value_changed(previous: String, new: String)
 

@@ -1,5 +1,8 @@
 class_name FloatNode
 extends Node
+## Stores and manages a float value.
+##
+## Emits a signal when the value changes.
 
 signal value_changed(previous: float, new: float)
 
@@ -18,3 +21,19 @@ func set_value(new_value: float) -> bool:
 	value_changed.emit(previous, value)
 
 	return true
+
+
+## Returns true if value is negative.
+func is_negative() -> bool:
+	if value < 0:
+		return true
+
+	return false
+
+
+## Returns true if value is positive.
+func is_positive() -> bool:
+	if value > 0:
+		return true
+
+	return false
